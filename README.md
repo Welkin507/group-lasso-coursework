@@ -2,11 +2,13 @@
 Coursework on Group LASSO problem. Optimization Methods (2023 Fall)
 
 Consider the group LASSO problem
+
 \begin{equation}
 \min _{x \in \mathbb{R}^{n \times l}} \frac{1}{2}\|A x-b\|_F^2+\mu\|x\|_{1,2}
 \end{equation}
 
 where the data $A \in \mathbb{R}^{m \times n}, b \in \mathbb{R}^{m \times l}$ and $\mu>0$ are given, and
+
 \begin{equation}
 \|x\|_{1,2}=\sum_{i=1}^n\|x(i, 1: l)\|_2
 \end{equation}
