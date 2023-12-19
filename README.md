@@ -1,17 +1,7 @@
 # group-lasso-coursework
 Coursework on Group LASSO problem. Optimization Methods (2023 Fall)
 
-Consider the group LASSO problem
-
-$$
-\min _{x \in \mathbb{R}^{n \times l}} \frac{1}{2}\|A x-b\|_F^2+\mu\|x\|_{1,2}
-$$
-
-where the data $A \in \mathbb{R}^{m \times n}, b \in \mathbb{R}^{m \times l}$ and $\mu>0$ are given, and
-
-$$
-\|x\| _{1,2}=\sum_{i=1}^n \|x(i, 1: l)\|_2
-$$
+![](./doc/demo.png)
 
 Note that $x(i, 1: l)$ is the $i$-th row of the matrix $x$. Here, both $x$ and $b$ are matrices but they are written in small letters for the convenience of coding. The test data are generated as follows:
 
