@@ -10,7 +10,7 @@ $$
 where the data $A \in \mathbb{R}^{m \times n}, b \in \mathbb{R}^{m \times l}$ and $\mu>0$ are given, and
 
 $$
-\left| x \right| _{1,2}=\sum_{i=1}^n \left| x(i, 1: l) \right|_2
+\|x\| _{1,2}=\sum_{i=1}^n \|x(i, 1: l)\|_2
 $$
 
 Note that $x(i, 1: l)$ is the $i$-th row of the matrix $x$. Here, both $x$ and $b$ are matrices but they are written in small letters for the convenience of coding. The test data are generated as follows:
